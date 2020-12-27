@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saiful.stressmonitoring">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StressMonitoring">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key"/>
+        <activity android:name=".other.AboutActivity" android:parentActivityName=".other.OtherActivity"/>
+        <activity android:name=".other.GuideActivity" android:parentActivityName=".other.OtherActivity" />
+        <activity android:name=".jenis.JenisActivity" android:parentActivityName=".other.HomeActivity"/>
+        <activity android:name=".other.OtherActivity" android:parentActivityName=".other.HomeActivity"/>
+        <activity android:name=".GejalaActivity" android:parentActivityName=".other.HomeActivity"/>
+        <activity android:name=".other.HomeActivity" />
+        <activity android:name=".splashscreen.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

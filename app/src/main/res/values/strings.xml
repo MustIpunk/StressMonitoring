@@ -1,0 +1,42 @@
+<resources>
+    <array name="data_photo">
+        <item>@drawable/ringan</item>
+        <item>@drawable/sedang</item>
+        <item>@drawable/berat</item>
+    </array>
+    <string name="app_name">Miqyas</string>
+    <string name="stres_monitoring">Stres Monitoring</string>
+    <string name="gejala">Gejala</string>
+    <string name="konsultasi">Konsultasi</string>
+    <string name="miqyas">Miqyas</string>
+    <string name="jenis_stres">Jenis Stres</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="lainnya">Lainnya</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="tentang">Tentang</string>
+
+    <string name="versi_aplikasi">Versi Aplikasi 1.0.0</string>
+    <string name="beritahu_kami">Beritahu kami masalah kamu, biarkan kami bantu :</string>
+    <string name="email">Email kami</string>
+    <string name="hubungi">Hubungi kami</string>
+    <string name="chat">Chat kami</string>
+    <string name="judul">Miqyas, Platform Sistem Pakar Siap Membantu Anda</string>
+    <string name="paragraf1">Miqyas diluncurkan pada tahun 2020 , dengan mengusung konsep sistem pakar yang di terapkan dalam aplikasi ini. Miqyas menyediakan fitur yang dirancang untuk memudahkan pengguna dalam mengatasi problematika pendeteksi stres akibat home learning akibat adanya covid-19</string>
+    <string name="judul2">Kesehatan anda yang utama</string>
+    <string name="paragraf2">Maraknya informasi yang simpang siur seperti saat ini, membuat para siswa kebingungan dalam menemukan informasi kesehatan yang memadai khususnya siswa SMA Muhammadiyah 15 Jakarta barat sebagai tempat penelitian</string>
+    <string name="paragraf3">Oleh karena itu, Miqyas menyediakan beberapa fitur seperti gejala stres, jenis-jenis stres, diagnosa, chat dan menyediakan konten kesehatan dalam format tulisan. Melalui fitur chat, pengguna bisa berbincang langsung bersama dengan guru bimbingan konseling di SMA Muhammadiyah 15 untuk mengatasi problematika yang</string>
+    <string name="paragraf4">Miqyas akan terus mengembangkan fitur-fitur yang ada demi mengatasi permasalahan siswa di SMA Muhammadiyah 15</string>
+
+
+    <string-array name="data_name">
+        <item>Stres Ringan</item>
+        <item>Stres Sedang</item>
+        <item>Stres Berat</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Stres ringan adalah stres yang tidak merusak aspek fisiologis dari seseorang.</item>
+        <item>Stres sedang terjadi lebih lama, dari beberapa jam hingga beberapa hari. Respon dari tingkat stres ini didapat gangguan pada lambung dan usus misalnya maag, buang air besar tidak teratur, ketegangan pada otot, gangguan pola tidur, perubahan siklus menstruasi, daya konsentrasi dan daya ingat menurun.</item>
+        <item>Stres berat adalah situasi yang lama dirasakan oleh seseorang dapat berlangsung beberapa minggu sampai beberapa bulan, seperti perselisihan perkawinan secara terus menerus, kesulitan financial yang berlangsung lama karena tidak ada perbaikan, berpisah dengan keluarga, berpindah tempat tinggal mempunyai penyakit kronis dan termasuk perubahan fisik, psikologis sosial pada usia lanjut.</item>
+    </string-array>
+</resources>
